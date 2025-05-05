@@ -10,6 +10,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
   },
+  "homepage": "https://evyz.github.io/isco-pro-landing",
   "dependencies": {
     "clsx": "^2.1.1",
     "next": "15.3.1",

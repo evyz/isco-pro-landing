@@ -1,12 +1,10 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: "export",
-  basePath: "/isco-pro", // важно: имя репозитория
+  basePath: "/my-repo-name",
   images: {
-    unoptimized: true, // отключает оптимизацию картинок (иначе они не заработают)
+    unoptimized: true,
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
