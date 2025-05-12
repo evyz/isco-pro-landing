@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-
-
+import Footer from "@/shared/ui/components/Footer";
 
 const geistSans = Montserrat({
   variable: "--font-geist-sans",
@@ -30,6 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Footer />
       </body>
     </html>
   );

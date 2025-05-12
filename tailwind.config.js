@@ -7,6 +7,7 @@ module.exports = {
         darkColor: "#131313",
         bg: "#000000",
         bgHalf: "rgba(0,0,0,0.5)",
+        bg20: "rgba(0,0,0,0.2)",
         inputActive: "#2D2D2D",
         secondBg: "#090909",
         subLabel: "#8B8B8B",
