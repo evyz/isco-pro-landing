@@ -19,6 +19,18 @@ module.exports = {
         "custom-pink": "0px 4px 20px rgba(186, 33, 79, 0.4)",
         "uploaded-file-block": "0px 4px 4px 0px #00000040",
       },
+      width: {
+        xs: "340px",
+        md: "700px",
+        lg: "1024px",
+        xl: "1600px",
+      },
+    },
+    screens: {
+      mobile: "700px",
+      ipads: "820px",
+      laptop: "1024px",
+      desktop: "1600px",
     },
   },
   plugins: [],

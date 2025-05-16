@@ -14,7 +14,9 @@ export default function Home() {
     <div className="bg-bg">
       <MainHead />
       <HeadAbout />
-      <HeadServices />
+      <div className="py-[200px]">
+        <HeadServices />
+      </div>
       <HeadOurServices />
       <HeadBanner />
       <Partners />
